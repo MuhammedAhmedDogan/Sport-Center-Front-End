@@ -1,0 +1,21 @@
+:root {
+    --main-color: #355592;
+    --background-color-1: #FFFFFF;
+    --background-color-2: #F6F6F6;
+    --background-color-3: #F1F8FF;
+    --select-color: #F39C12;
+    --text-color-1: #4E4E4E;
+    --text-color-2: #212529;
+    --header-text-color: #FFFFFF;
+}
+
+html {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

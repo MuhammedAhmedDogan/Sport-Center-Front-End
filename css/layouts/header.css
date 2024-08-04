@@ -1,0 +1,57 @@
+#header {
+    height: 80px;
+    background: transparent;
+}
+
+#header .navbar .logo {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+#header .navbar .logo img {
+    display: block;
+}
+
+#navbarNav ul {
+    align-items: end;
+    margin-left: 0.5rem;
+}
+
+#navbarNav li {
+    padding: 0.25rem;
+}
+
+#navbarNav li a {
+    min-width: max-content;
+    padding: 0.2rem 0.75rem;
+    color: var(--header-text-color);
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 350;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    transition: all 0.3s;
+}
+
+#navbarNav li a:hover{
+    background-color: var(--select-color);
+    box-shadow: 0 0 1rem var(--select-color);
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+#btn-join-us {
+    background-color: var(--select-color);
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 30"%3E%3Cpath stroke="%23ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 7h20M5 15h20M5 23h20"/%3E%3C/svg%3E');
+}
+
+.navbar-toggler {
+    border: none;
+}
