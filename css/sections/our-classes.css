@@ -1,0 +1,70 @@
+#our-classes {
+    position: relative;
+    width: 100vw;
+    padding: 10vh 0;
+    background-color: var(--background-color-1);
+}
+
+#our-classes::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--background-color-2);
+    clip-path: polygon(30% 0, 100% 0, 100% 100%, 50% 100%);
+}
+
+#our-classes .container {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#our-classes .container h2 {
+    color: var(--main-color);
+    font-family: "Poppins", sans-serif;
+    font-weight: 750;
+}
+
+#our-classes .container #underline {
+    width: 5.2rem;
+    height: 0.5rem;
+    border-radius: 5rem;
+    background-color: var(--select-color);
+}
+
+#our-classes .container p {
+    color: var(--text-color-1);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+#our-classes .container .row {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#our-classes .container #btn-group .btn {
+    background-color: var(--main-color);
+    color: var(--header-text-color);
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-width: 0.15rem;
+    border-radius: 0.4rem;
+}
+
+#our-classes .container #btn-group .btn:hover {
+    background-color: var(--select-color);
+    box-shadow: 0 0 1rem var(--select-color);
+}
+
+#our-classes .container .row span {
+    font-size: 1.6rem;
+    font-weight: 750; 
+}
