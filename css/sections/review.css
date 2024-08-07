@@ -1,0 +1,78 @@
+#review {
+    padding: 5vh 0 5vh 0;
+    background-color: var(--background-color-3);
+}
+
+#review .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#review .row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#review .client {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+#review .client img {
+    border: 0 0 0 transparent;
+    border-radius: 100rem;
+}
+
+#review .client p {
+    color: var(--text-color-2);
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+#review .client span {
+    font-weight: 400;
+}
+
+#review .client-card {
+    margin-bottom: 5rem;
+}
+
+#review .client-text {
+    margin: 0;
+    padding: 0.5rem 2.5rem;
+    color: var(--header-text-color);
+    background-color: var(--main-color);
+    font-weight: 400;
+}
+
+#review .client-card .wrapper {
+    position: relative;
+}
+
+#review .client-card .shadow-left {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 0;
+    top: 100%;
+    background-color: var(--main-color);
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+    opacity: 0.6;
+}
+
+#review .client-card .shadow-right {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 0;
+    top: 100%;
+    background-color: var(--main-color);
+    clip-path: polygon(0 100%, 0 0, 100% 0);
+    opacity: 0.6;
+}

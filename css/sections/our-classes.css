@@ -1,7 +1,6 @@
 #our-classes {
     position: relative;
-    width: 100vw;
-    padding: 10vh 0;
+    padding: 5vh 0;
     background-color: var(--background-color-1);
 }
 
@@ -22,25 +21,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-#our-classes .container h2 {
-    color: var(--main-color);
-    font-family: "Poppins", sans-serif;
-    font-weight: 750;
-}
-
-#our-classes .container #underline {
-    width: 5.2rem;
-    height: 0.5rem;
-    border-radius: 5rem;
-    background-color: var(--select-color);
-}
-
-#our-classes .container p {
-    color: var(--text-color-1);
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
 }
 
 #our-classes .container .row {

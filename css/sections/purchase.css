@@ -1,5 +1,4 @@
 #purchase {
-    width: 100vw;
     padding: 5vh 0 0 0;
     background-color: var(--background-color-2);
 }
@@ -11,33 +10,10 @@
     align-items: center;
 }
 
-#purchase .container h2 {
-    color: var(--main-color);
-    font-family: "Poppins", sans-serif;
-    font-weight: 750;
-}
-
-#purchase .container #underline {
-    width: 5.2rem;
-    height: 0.5rem;
-    border-radius: 5rem;
-    background-color: var(--select-color);
-}
-
-#purchase .container p {
-    color: var(--text-color-1);
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-}
-
-#purchase .container .row {
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-}
-
 #purchase .card {
     cursor: pointer;
+    border: none;
+    box-shadow: 0 0 0.8rem #7e7676;
 }
 
 #purchase .card .card-body {
