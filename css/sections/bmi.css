@@ -1,0 +1,73 @@
+#bmi {
+    position: relative;
+    width: 100vw;
+    padding: 5vh 0;
+    background-color: var(--background-color-1);
+}
+
+#bmi h1 {
+    color: var(--main-color);
+    font-family: "Poppins", sans-serif;
+    font-weight: 750;
+}
+
+#bmi p {
+    color: var(--text-color-1);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+#bmi .row {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bmi span {
+    color: var(--text-color-1);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin-left: 0.3rem;
+}
+
+#bmi .input {
+    width: 80%;
+    border-color: var(--text-color-2);
+    border-radius: 5px;
+    border-width: 0.15rem;
+}
+
+#bmi .cm , #bmi .kg {
+    display: flex;
+}
+
+#bmi .index {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bmi .index h3 {
+    color: var(--text-color-2);
+    font-weight: 650;
+}
+
+#bmi #bmi-index-img {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#bmi #cursor {
+    position: absolute;
+    width: 5%;
+    height: 10%;
+    left: 6.5%;
+    top: 100%;
+    transform: translate(0, 0);
+    background-color: var(--select-color);
+    clip-path: polygon(0 100%, 100% 100%, 50% 0);
+}
