@@ -1,0 +1,87 @@
+#purchase {
+    width: 100vw;
+    padding: 5vh 0 0 0;
+    background-color: var(--background-color-2);
+}
+
+#purchase .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#purchase .container h2 {
+    color: var(--main-color);
+    font-family: "Poppins", sans-serif;
+    font-weight: 750;
+}
+
+#purchase .container #underline {
+    width: 5.2rem;
+    height: 0.5rem;
+    border-radius: 5rem;
+    background-color: var(--select-color);
+}
+
+#purchase .container p {
+    color: var(--text-color-1);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+#purchase .container .row {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#purchase .card {
+    cursor: pointer;
+}
+
+#purchase .card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+#purchase .card p {
+    margin-bottom: 0;
+    color: var(--text-color-2);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+#purchase .card #price {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+#purchase .card span {
+    text-decoration-line: line-through;
+}
+
+#purchase .card .card-footer {
+    display: flex;
+    background-color: white;
+    border: none;
+    color: var(--text-color-2);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    justify-content: center;
+    transition: all 0.3s;
+}
+
+#purchase .card .card-footer i {
+    position: absolute;
+    left: 1rem;
+    margin-right: 3rem;
+}
+
+#purchase .card:hover .card-footer {
+    background-color: var(--main-color);
+}
