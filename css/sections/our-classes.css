@@ -64,10 +64,10 @@
 #our-classes .container #btn-group div {
     position: absolute;
     width: 20%;
-    height: 20%;
+    height: 25%;
     left: 50%;
     top: 100%;
-    transform: translate(-50%, 23%);
+    transform: translate(-50%, 15%);
     background-color: var(--select-color);
     clip-path: polygon(100% 0, 0 0, 50% 100%);
     transition: all 0.3s;
