@@ -57,6 +57,20 @@
     font-weight: 700;
     border-width: 0.15rem;
     border-radius: 0.4rem;
+    transition: all 0.3s;
+    position: relative;
+}
+
+#our-classes .container #btn-group div {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, 23%);
+    background-color: var(--select-color);
+    clip-path: polygon(100% 0, 0 0, 50% 100%);
+    transition: all 0.3s;
 }
 
 #our-classes .container #btn-group .btn:hover {
@@ -64,7 +78,12 @@
     box-shadow: 0 0 1rem var(--select-color);
 }
 
-#our-classes .container .row span {
+#our-classes .container #btn-group .selected {
+    background-color: var(--select-color);
+    box-shadow: 0 0 0.5rem var(--select-color);
+}
+
+#our-classes #classes .row span {
     font-size: 1.6rem;
-    font-weight: 750; 
+    font-weight: 750;
 }
