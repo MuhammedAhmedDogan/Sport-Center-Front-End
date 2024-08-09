@@ -1,6 +1,5 @@
 #header {
     height: 80px;
-    background: transparent;
 }
 
 #header .navbar .logo {
@@ -54,4 +53,12 @@
 
 .navbar-toggler {
     border: none;
+}
+
+.header-scrolled {
+    background-color: var(--main-color);
+}
+
+.collapse-scrolled {
+    background-color: var(--main-color);
 }

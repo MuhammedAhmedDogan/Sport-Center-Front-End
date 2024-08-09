@@ -39,6 +39,7 @@ p {
     color: var(--text-color-1);
     font-family: "Poppins", sans-serif;
     font-weight: 700;
+    font-size: 1.2rem;
 }
 
 h2 {

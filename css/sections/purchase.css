@@ -60,4 +60,5 @@
 
 #purchase .card:hover .card-footer {
     background-color: var(--main-color);
+    color: var(--select-color);
 }
