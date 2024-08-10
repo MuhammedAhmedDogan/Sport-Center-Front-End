@@ -1,0 +1,57 @@
+#contact-us {
+    padding: 5vh 0;
+    background-color: var(--background-color-1);
+}
+
+#contact-us .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-us .row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contact-us h3 {
+    color: var(--text-color-1);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+#contact-us h4 {
+    color: var(--text-color-1);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+#contact-us span {
+    color: var(--text-color-1);
+    font-family: "Poppins", sans-serif;
+    font-weight: 650;
+}
+
+#contact-us form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+#contact-us input, #contact-us textarea {
+    width: 100%;
+    color: var(--text-color-1);
+    background-color: var(--background-color-3);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    padding: 10px;
+    border : none;
+    border-radius: 5px;
+    border-width: 0.15rem;
+}

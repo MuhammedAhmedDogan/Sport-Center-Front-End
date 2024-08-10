@@ -25,6 +25,10 @@
 
 #bmi .input {
     width: 80%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    padding-left: 10px;
+    color: var(--text-color-1);
     border-color: var(--text-color-2);
     border-radius: 5px;
     border-width: 0.15rem;
