@@ -63,3 +63,7 @@
 .collapse-scrolled {
     background-color: var(--main-color);
 }
+
+.menu-open {
+    background-color: var(--main-color);
+}

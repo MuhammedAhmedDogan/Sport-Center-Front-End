@@ -80,6 +80,7 @@ function bmiCalc() {
     }
 }
 
+/* Navbar settings */
 const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
 // Select the collapse element
 const navbarCollapse = document.querySelector('#navbarNav');
@@ -98,3 +99,15 @@ navLinks.forEach(link => {
         }
     });
 });
+
+navbarCollapse.addEventListener('shown.bs.collapse', function () {
+    const header = document.getElementById('header');
+    header.classList.add('menu-open');
+    navbarCollapse.classList.add('menu-open');
+});
+
+navbarCollapse.addEventListener('hidden.bs.collapse', function () {
+    const header = document.getElementById('header');
+    header.classList.remove('menu-open');
+    navbarCollapse.classList.remove('menu-open');
+})
