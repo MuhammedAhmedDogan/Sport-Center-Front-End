@@ -79,3 +79,22 @@ function bmiCalc() {
         }
     }
 }
+
+const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+// Select the collapse element
+const navbarCollapse = document.querySelector('#navbarNav');
+
+// Add click event listener to each nav link
+navLinks.forEach(link => {
+    link.addEventListener('click', function () {
+        // Check if navbarCollapse is open
+        if (navbarCollapse.classList.contains('show')) {
+            // Get the bootstrap collapse instance
+            const bsCollapse = new bootstrap.Collapse(navbarCollapse, {
+                toggle: false
+            });
+            // Hide the navbarCollapse
+            bsCollapse.hide();
+        }
+    });
+});
