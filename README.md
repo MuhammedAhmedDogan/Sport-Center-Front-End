@@ -4,7 +4,7 @@ This project is a user-friendly and interactive sports center website. It featur
 ## Technologies
 HTML<br>
 CSS<br>
-JavaScrpit<br>
+JavaScript<br>
 Bootstrap v5.3<br>
 
 ## Features
@@ -19,19 +19,4 @@ A BMI calculator is integrated, allowing users to input height and weight and co
 ### Google Maps Integration:
 Location can be viewed on the map using Google Maps.
 
-## Entity Relations
-![Örnek Görsel:](https://github.com/MuhammedAhmedDogan/VetManagementSystem/blob/master/pictures/VetUML.png)
-## API Documentation
-
-### Customer Management
-![Örnek Görsel:](https://github.com/MuhammedAhmedDogan/VetManagementSystem/blob/master/pictures/customer_endpoints.png)
-### Animal Management
-![Örnek Görsel:](https://github.com/MuhammedAhmedDogan/VetManagementSystem/blob/master/pictures/animal_endpoints.png)
-### Vaccine Management
-![Örnek Görsel:](https://github.com/MuhammedAhmedDogan/VetManagementSystem/blob/master/pictures/vaccine_endpoints.png)
-### Veterinarian Management
-![Örnek Görsel:](https://github.com/MuhammedAhmedDogan/VetManagementSystem/blob/master/pictures/vet_endpoints.png)
-### Available Date Management
-![Örnek Görsel:](https://github.com/MuhammedAhmedDogan/VetManagementSystem/blob/master/pictures/available_date_endpoints.png)
-### Appointment Management
-![Örnek Görsel:](https://github.com/MuhammedAhmedDogan/VetManagementSystem/blob/master/pictures/appointment_endpoints.png)
+[## Active Link](https://ahmed-dogan-sport-center.netlify.app/)
