@@ -19,4 +19,5 @@ A BMI calculator is integrated, allowing users to input height and weight and co
 ### Google Maps Integration:
 Location can be viewed on the map using Google Maps.
 
-[## Active Link](https://ahmed-dogan-sport-center.netlify.app/)
+## Live Site
+[![Sport Center](https://github.com/MuhammedAhmedDogan/Sport-Center-Front-End/blob/main/images/logo.png?raw=true)](https://ahmed-dogan-sport-center.netlify.app/)
